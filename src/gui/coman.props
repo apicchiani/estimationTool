@@ -1,0 +1,86 @@
+# The tabs to display apart from the PreprocessPanel.
+#
+# The classes listed here must import the coman.gui.ComanPanel
+# interface. 
+#
+# Additional options follow the classname after a colon.
+# Currently supported options are:
+#   standalone - the tab does not depend on the PreprocessPanel to load the data first
+#
+Tabs=gui.MethodCreateTSPanel,\
+	gui.ValidationPanel,\
+	gui.ClassifierPanel,\
+	gui.FilterPanel,\
+	gui.ParameterDBPanel
+	
+# Classifier
+
+Classifiers=weka.classifiers.bayes.BayesNet,\
+weka.classifiers.bayes.ComplementNaiveBayes,\
+weka.classifiers.bayes.DMNBtext,\
+weka.classifiers.bayes.NaiveBayes,\
+weka.classifiers.bayes.NaiveBayesMultinomial,\
+weka.classifiers.bayes.NaiveBayesMultinomialUpdateable,\
+weka.classifiers.bayes.NaiveBayesUpdateable,\
+weka.classifiers.functions.LibLINEAR,\
+weka.classifiers.functions.LibSVM,\
+weka.classifiers.functions.Logistic,\
+weka.classifiers.functions.MultilayerPerceptron,\
+weka.classifiers.functions.RBFNetwork,\
+weka.classifiers.functions.SimpleLogistic,\
+weka.classifiers.functions.SMO,\
+weka.classifiers.functions.VotedPerceptron,\
+weka.classifiers.lazy.IB1,\
+weka.classifiers.lazy.IBk,\
+weka.classifiers.lazy.KStar,\
+weka.classifiers.lazy.LWL,\
+weka.classifiers.meta.AdaBoostM1,\
+weka.classifiers.meta.AttributeSelectedClassifier,\
+weka.classifiers.meta.Bagging,\
+weka.classifiers.meta.ClassificationViaRegression,\
+weka.classifiers.meta.CVParameterSelection,\
+weka.classifiers.meta.Dagging,\
+weka.classifiers.meta.Decorate,\
+weka.classifiers.meta.END,\
+weka.classifiers.meta.FilteredClassifier,\
+weka.classifiers.meta.Grading,\
+weka.classifiers.meta.LogitBoost,\
+weka.classifiers.meta.MultiBoostAB,\
+weka.classifiers.meta.MultiClassClassifier,\
+weka.classifiers.meta.MultiScheme,\
+weka.classifiers.meta.OrdinalClassClassifiers,\
+weka.classifiers.meta.RacedIncrementalLogitBoost,\
+weka.classifiers.meta.RandomCommittee,\
+weka.classifiers.meta.RandomSubSpace,\
+weka.classifiers.meta.RotationForest,\
+weka.classifiers.meta.Stacking,\
+weka.classifiers.meta.StackingC,\
+weka.classifiers.meta.ThresholdSelector,\
+weka.classifiers.meta.Vote,\
+weka.classifiers.meta.nestedDichotomies.ClassBalancedND,\
+weka.classifiers.meta.nestedDichotomies.DataNearBalancedND,\
+weka.classifiers.meta.nestedDichotomies.ND,\
+weka.classifiers.misc.FLR,\
+weka.classifiers.misc.HyperPipes,\
+weka.classifiers.misc.VFI,\
+weka.classifiers.trees.ADTree,\
+weka.classifiers.trees.DecisionStump,\
+weka.classifiers.trees.FT,\
+weka.classifiers.trees.J48,\
+weka.classifiers.trees.J48graft,\
+weka.classifiers.trees.LADTree,\
+weka.classifiers.trees.LMT,\
+weka.classifiers.trees.NBTree,\
+weka.classifiers.trees.RandomForest,\
+weka.classifiers.trees.RandomTree,\
+weka.classifiers.trees.REPTree,\
+weka.classifiers.rules.ConjunctiveRule,\
+weka.classifiers.rules.DecisionTable,\
+weka.classifiers.rules.DTNB,\
+weka.classifiers.rules.JRip,\
+weka.classifiers.rules.NNge,\
+weka.classifiers.rules.OneR,\
+weka.classifiers.rules.PART,\
+weka.classifiers.rules.Ridor,\
+weka.classifiers.rules.ZeroR
+	
